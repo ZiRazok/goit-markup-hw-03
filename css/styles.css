@@ -179,6 +179,7 @@ h6 {
     letter-spacing: .02em;
     font-weight: 500;
     color: #2e2f42;
+    padding: 24px 0;
 }
 
 .header-address {
@@ -252,7 +253,7 @@ h6 {
     min-width: 100%;
 }
 
-.organization-subheading {
+.organization-section-heading {
     margin-bottom: 8px;
 }
 
@@ -291,11 +292,10 @@ h6 {
 }
 
 .team-container-name {
-    padding-bottom: 32px;
+    padding: 32px 0;
 }
 
 .team-section-heading {
-    margin-top: 32px;
     margin-bottom: 8px;
 }
 
