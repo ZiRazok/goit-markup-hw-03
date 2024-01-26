@@ -107,6 +107,26 @@ h6 {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Logo WebStudio */
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -116,6 +136,7 @@ h6 {
     line-height: 1.17;
     letter-spacing: .03em;
     color: #4D5AE5;
+    margin-right: 76px;
 }
 
 .logo.nav-logo .logo-span {
@@ -131,7 +152,7 @@ h6 {
 /* Header Top menu */
 .header {
     max-width: 100%;
-    border-bottom: #E7E9FC;
+    border-bottom: 1px solid #E7E9FC;
     padding: 24px 0;
 }
 
@@ -142,13 +163,13 @@ h6 {
 
 .header-nav {
     display: flex;
+    align-items: center;
 }
 
 .nav-list {
     display: flex;
     flex-wrap: wrap;
-    column-gap: 40px;
-    margin-left: 76px;
+    gap: 40px;
 }
 
 .nav-item {}
@@ -167,7 +188,7 @@ h6 {
 .address-list {
     display: flex;
     flex-wrap: wrap;
-    column-gap: 40px;
+    gap: 40px;
     margin-left: 15px;
 }
 
@@ -192,8 +213,11 @@ h6 {
     max-width: 100%;
     background-color: #2E2F42;
     padding: 188px 0;
-    text-align: center;
+}
 
+.title-main-heading {
+    max-width: 496px;
+    margin: 0 auto;
 }
 
 .title-button {
@@ -205,10 +229,13 @@ h6 {
     color: #fff;
     background-color: #4D5AE5;
     cursor: pointer;
+    display: block;
     padding: 16px 32px;
+    margin: 0 auto;
     border-style: none;
     border-radius: 4px;
     margin-top: 48px;
+    min-width: 169px;
 
 }
 
@@ -223,6 +250,10 @@ h6 {
 /* Section Organization */
 .section-organization {
     min-width: 100%;
+}
+
+.organization-subheading {
+    margin-bottom: 8px;
 }
 
 .organization-list {
@@ -242,19 +273,25 @@ h6 {
     background-color: #F4F4FD;
 }
 
+.team-subheading {
+    margin-bottom: 72px;
+}
+
 .team-list {
     display: flex;
     gap: 24px;
-    margin-top: 72px;
 }
 
 .team-item {
     width: calc((100% - 3 * 24px) / 4);
     background-color: #fff;
-    padding-bottom: 32px;
     text-align: center;
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
+}
+
+.team-container-name {
+    padding-bottom: 32px;
 }
 
 .team-section-heading {
@@ -263,24 +300,31 @@ h6 {
 }
 
 
-
 /* Section Our portfolio */
 .section-portfolio {
     max-width: 100%;
 }
 
+.portfolio-subheading {
+    margin-bottom: 72px;
+}
+
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
-    margin-top: 72px;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
 .portfolio-item {
     max-width: calc((100% - 2 * 24px) / 3);
-    padding-bottom: 32px;
-    border: 1px solid #E7E9FC;
     text-align: center;
+}
+
+.portfolio-container-name {
+    padding: 32px 16px;
+    border: 1px solid #E7E9FC;
+    border-top: none;
 }
 
 .portfolio-section-heading {
@@ -298,7 +342,11 @@ h6 {
     padding: 100px 0;
 }
 
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
 .footer-paragraph {
-    margin-top: 18px;
     max-width: 264px;
 }
